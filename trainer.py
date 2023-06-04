@@ -66,7 +66,7 @@ class ImagenTrainer(nn.Module):
 
         # elucidated or not
 
-        self.is_elucidated = isinstance(imagen)
+        self.is_elucidated = False
 
         # create accelerator instance
 

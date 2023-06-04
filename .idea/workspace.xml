@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="117c4a33-181b-435d-b8df-a87391408b62" name="Changes" comment="First commit">
-      <change afterPath="$PROJECT_DIR$/imagen.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trainer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trainer_util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util.py" afterDir="false" />
+    <list default="true" id="117c4a33-181b-435d-b8df-a87391408b62" name="Changes" comment="Added dataset">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/trainer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +75,8 @@
       <updated>1685897316472</updated>
       <workItem from="1685897329594" duration="142000" />
       <workItem from="1685897478405" duration="419000" />
-      <workItem from="1685897910093" duration="1604000" />
+      <workItem from="1685897910093" duration="2341000" />
+      <workItem from="1685900263724" duration="362000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1685897443272</created>
@@ -97,7 +92,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685897630157</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Updated files">
+      <created>1685899552397</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685899552397</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added dataset">
+      <created>1685899606309</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685899606309</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +125,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="Updated files" />
+    <MESSAGE value="Added dataset" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added dataset" />
   </component>
 </project>
