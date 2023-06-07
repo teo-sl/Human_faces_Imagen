@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="117c4a33-181b-435d-b8df-a87391408b62" name="Changes" comment="Added dataset" />
+    <list default="true" id="117c4a33-181b-435d-b8df-a87391408b62" name="Changes" comment="Added files">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,6 +76,9 @@
       <workItem from="1685897478405" duration="419000" />
       <workItem from="1685897910093" duration="2341000" />
       <workItem from="1685900263724" duration="605000" />
+      <workItem from="1686136660774" duration="255000" />
+      <workItem from="1686136921234" duration="118000" />
+      <workItem from="1686137045256" duration="60000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1685897443272</created>
@@ -110,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685900637797</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added files">
+      <created>1686136678601</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1686136678601</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,7 +133,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -131,6 +155,7 @@
     <MESSAGE value="First commit" />
     <MESSAGE value="Updated files" />
     <MESSAGE value="Added dataset" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added dataset" />
+    <MESSAGE value="Added files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added files" />
   </component>
 </project>
