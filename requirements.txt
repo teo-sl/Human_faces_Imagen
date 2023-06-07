@@ -1,0 +1,9 @@
+datasets
+transformers
+einops
+einops_exts
+beartype
+lion_pytorch
+ema_pytorch
+pytorch_warmup
+gdown
