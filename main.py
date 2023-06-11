@@ -28,8 +28,8 @@ hyperparams = {
     "model_save_dir": './model_dir/',
     "dynamic_thresholding": True,
     "use_telegram" : False,
-    "bot_token": "...",
-    "chat_id": "...", 
+    "bot_token": "your bot token",
+    "chat_id": "your chat id", 
     "data_path"  : "path/to/data",
 }
 

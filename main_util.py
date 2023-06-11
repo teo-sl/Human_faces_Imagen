@@ -54,7 +54,7 @@ def get_text_embeddings(name, labels, max_length = 256):
                 else: ret+="without bangs, "
             elif i==1:
                 if c=='1': ret+="in glasses "
-                else: ret+="no glasses "
+                else: ret+="without glasses "
             elif i==2:
                 if c=='1': ret+="and with a beard"
                 else: ret+="and shaved"
@@ -148,6 +148,7 @@ def make(config):
 def train(trainer, text_embeddings, config, save_every = 5_000, sample_every = 20_000):
     dummy_filename = './test.jpg'
     model_name = "model.ckpt"
+    
     for i in range(config["steps"]):
         loss = trainer.train_step(max_batch_size = config["batch_size"])
 
