@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="117c4a33-181b-435d-b8df-a87391408b62" name="Changes" comment="Updated dataset" />
+    <list default="true" id="117c4a33-181b-435d-b8df-a87391408b62" name="Changes" comment="minor updates" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,6 +79,7 @@
       <workItem from="1686136921234" duration="118000" />
       <workItem from="1686137045256" duration="60000" />
       <workItem from="1686160121702" duration="56000" />
+      <workItem from="1686478026733" duration="205000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1685897443272</created>
@@ -129,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686160143010</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="minor updates">
+      <created>1686478070549</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1686478070549</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +172,7 @@
     <MESSAGE value="Added dataset" />
     <MESSAGE value="Added files" />
     <MESSAGE value="Updated dataset" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated dataset" />
+    <MESSAGE value="minor updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor updates" />
   </component>
 </project>
