@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="117c4a33-181b-435d-b8df-a87391408b62" name="Changes" comment="Fixed little bugs">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/global_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/global_config.json" afterDir="false" />
+    <list default="true" id="117c4a33-181b-435d-b8df-a87391408b62" name="Changes" comment="updated config">
+      <change beforePath="$PROJECT_DIR$/user_generate_images.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_generate_images.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +83,7 @@
       <workItem from="1686160121702" duration="56000" />
       <workItem from="1686478026733" duration="205000" />
       <workItem from="1686488225349" duration="409000" />
-      <workItem from="1687094108350" duration="2703000" />
+      <workItem from="1687094108350" duration="3314000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1685897443272</created>
@@ -170,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687100799875</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="updated config">
+      <created>1687100962331</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1687100962331</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +215,7 @@
     <MESSAGE value="added test an generation code" />
     <MESSAGE value="Refactored" />
     <MESSAGE value="Fixed little bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed little bugs" />
+    <MESSAGE value="updated config" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated config" />
   </component>
 </project>

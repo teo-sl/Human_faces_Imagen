@@ -8,7 +8,7 @@ from main_util import make
 
 
 def generate_images(imagen, text_embeddings, labels, config, names, iter, dir):
-  embeds = text_embeddings[labels]
+  embeds = text_embeddings[labels].cuda()
   images = imagen.sample(text_embeds=embeds, batch_size = config["batch_size"], 
                                     return_pil_images = True,cond_scale = 3.)
   

@@ -113,4 +113,4 @@ def main(folder_name):
 
 
 config = read_config()
-output = main(config['folder_name'])
+output = main(config['testing_images_dir'])
