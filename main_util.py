@@ -23,6 +23,7 @@ def read_config(path='./global_config.json'):
     config = {k: v for k, v in config.items()}
     config['dim_mults'] = tuple(config['dim_mults'])
     config['dynamic_thresholding'] = bool(config['dynamic_thresholding'])
+    config['convert_from_trainer'] = bool(config['convert_from_trainer'])
     return config
 
 

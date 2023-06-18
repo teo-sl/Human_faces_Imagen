@@ -31,13 +31,18 @@ def read_test_file(path):
 
 hyperparams = read_config()
 
-imagen,text_embeddings = make(hyperparams)
+trainer,text_embeddings = make(hyperparams)
 names,labels_test = read_test_file('test.txt')
 
 if not os.path.exists(hyperparams["image_save_dir"]):
   os.mkdir(hyperparams["image_save_dir"])
+  
+imagen = trainer.imagen
+if hyperparams["convert_from_trainer"]:
+    trainer.load_state_dict(torch.load(os.path.join(hyperparams["model_save_dir"],hyperparams["model_name"])))
+else:
+   imagen.load_state_dict(torch.load(os.path.join(hyperparams["model_save_dir"],hyperparams["model_name"])))
 
-imagen.load_state_dict(torch.load(hyperparams["model_save_dir"]))
 print("Model loaded")
 
 

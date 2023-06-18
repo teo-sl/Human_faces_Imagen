@@ -8,3 +8,6 @@ ema_pytorch
 pytorch_warmup
 gdown
 facenet-pytorch
+kornia
+accelerate
+SentencePiece
