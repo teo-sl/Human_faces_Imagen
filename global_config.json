@@ -10,7 +10,7 @@
     "lr": 1e-4,
     "num_resnet_blocks": 3,
     "dynamic_thresholding": "True",
-    "data_path" : "path/to/data/dir/",
+    "data_path" : "data.nosync",
     "model_save_dir": "models_dir",
     "model_name" : "model_name",
     "convert_from_trainer" : "True",
