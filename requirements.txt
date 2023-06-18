@@ -7,3 +7,4 @@ lion_pytorch
 ema_pytorch
 pytorch_warmup
 gdown
+facenet-pytorch

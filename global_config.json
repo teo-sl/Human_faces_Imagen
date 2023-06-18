@@ -1,0 +1,15 @@
+{
+    "dim": 128,
+    "cond_dim": 128,
+    "dim_mults": "(1, 2, 4)",
+    "image_sizes": 64,
+    "timesteps": 500,
+    "cond_drop_prob": 0.1,
+    "batch_size": 15,
+    "lr": 1e-4,
+    "num_resnet_blocks": 3,
+    "dynamic_thresholding": "True",
+    "model_save_dir": "path/to/model/dir/",
+    "image_save_dir": "path/to/image/dir/",
+    "testing_images_dir" : "path/to/testing/images/dir/"
+}

@@ -12,9 +12,19 @@ import os
 from PIL import Image
 from unet import Unet
 from trainer import ImagenTrainer
+import json
 
 
 labels = [bin(i)[3:] for i in range(2**5,2**(5+1))]
+
+def read_config(path='./global_config.json'):
+    with open(path, 'r') as f:
+        config = json.load(f)
+    config = {k: v for k, v in config.items()}
+    config['dim_mults'] = tuple(config['dim_mults'])
+    config['dynamic_thresholding'] = bool(config['dynamic_thresholding'])
+    return config
+
 
 
 def send_to_telegram(image,bot_token,chat_id):
@@ -45,19 +55,19 @@ def get_text_embeddings(name, labels, max_length = 256):
             ret+="young person "
         else:
             ret+="elderly person "
-        
-        for i,c in enumerate(noun):
-            if i==4 or i==3:
-                continue
-            if i==0:
-                if c=='1': ret+="with bangs, "
-                else: ret+="without bangs, "
-            elif i==1:
-                if c=='1': ret+="in glasses "
-                else: ret+="without glasses "
-            elif i==2:
-                if c=='1': ret+="and with a beard"
-                else: ret+="and shaved"
+        if noun[0]=='1':
+            ret+="with bangs, "
+        else:
+            ret+="without bangs, "
+        if noun[1]=='1':
+            ret+="in glasses "
+        else:
+            ret+="without glasses "
+        if noun[2]=='1':
+            ret+="and with a beard"
+        else:
+            ret+="and shaved"
+
         return ret
             
     texts = [photo_prefix(x) for x in labels]
@@ -137,7 +147,6 @@ def make(config):
     trainer = ImagenTrainer(imagen, lr=config["lr"])
 
     ds = FaceDataset(config["data_path"], text_embeddings, transform=T.Compose([ T.RandomHorizontalFlip(), T.ToTensor()]))
-
 
     trainer.add_train_dataset(ds, batch_size = config["batch_size"])
 

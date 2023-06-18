@@ -1,5 +1,4 @@
 from main_util import *
-
 from transformers import logging
 logging.set_verbosity_error()
 
@@ -14,27 +13,10 @@ torch.backends.cudnn.benchmark = False
 torch.backends.cudnn.deterministic = True
 
 
-hyperparams = {
-    "steps": 500_000,
-    "dim": 128,
-    "cond_dim": 128,
-    "dim_mults": (1, 2, 4),
-    "image_sizes": 64,
-    "timesteps": 500,
-    "cond_drop_prob": 0.1,
-    "batch_size": 15,
-    'lr': 1e-4,
-    'num_resnet_blocks': 3,
-    "model_save_dir": './model_dir/',
-    "dynamic_thresholding": True,
-    "use_telegram" : False,
-    "bot_token": "your bot token",
-    "chat_id": "your chat id", 
-    "data_path"  : "path/to/data",
-}
+hyperparams = read_config()
 
 
-model_save_dir = "./model_dir/"
+model_save_dir = hyperparams["model_save_dir"]
 if not os.path.exists(model_save_dir):
   os.mkdir(model_save_dir)
 
