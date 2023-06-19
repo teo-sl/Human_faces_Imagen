@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="117c4a33-181b-435d-b8df-a87391408b62" name="Changes" comment="updated config">
-      <change beforePath="$PROJECT_DIR$/user_generate_images.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_generate_images.py" afterDir="false" />
+    <list default="true" id="117c4a33-181b-435d-b8df-a87391408b62" name="Changes" comment="little updates">
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,25 +23,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2QkUx8O9erDOqVpaEDBXvJzEGtR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="image_mine_2" />
@@ -83,7 +87,8 @@
       <workItem from="1686160121702" duration="56000" />
       <workItem from="1686478026733" duration="205000" />
       <workItem from="1686488225349" duration="409000" />
-      <workItem from="1687094108350" duration="3314000" />
+      <workItem from="1687094108350" duration="3333000" />
+      <workItem from="1687164099280" duration="3038000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1685897443272</created>
@@ -176,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687100962331</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="little updates">
+      <created>1687101984968</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1687101984969</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +228,7 @@
     <MESSAGE value="Refactored" />
     <MESSAGE value="Fixed little bugs" />
     <MESSAGE value="updated config" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated config" />
+    <MESSAGE value="little updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="little updates" />
   </component>
 </project>
