@@ -1,9 +1,9 @@
 from main_util import read_config
 import torch
-from imagen import Imagen
-from unet import Unet
 import os
 from main_util import make
+import numpy as np
+import random
 
 
 
@@ -30,6 +30,16 @@ def read_test_file(path):
 
 
 hyperparams = read_config()
+
+if hyperparams["deterministic_generate_images"]:
+    seed = 3128974198
+    torch.manual_seed(seed)
+    torch.cuda.manual_seed(seed)
+    torch.cuda.manual_seed_all(seed)
+    np.random.seed(seed)
+    random.seed(seed)
+    torch.backends.cudnn.benchmark = False
+    torch.backends.cudnn.deterministic = True
 
 trainer,text_embeddings = make(hyperparams)
 names,labels_test = read_test_file('test.txt')

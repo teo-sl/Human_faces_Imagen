@@ -24,6 +24,7 @@ def read_config(path='./global_config.json'):
     config['dim_mults'] = tuple(config['dim_mults'])
     config['dynamic_thresholding'] = bool(config['dynamic_thresholding'])
     config['convert_from_trainer'] = bool(config['convert_from_trainer'])
+    config['deterministic_generate_images'] = bool(config['deterministic_generate_images'])
     return config
 
 

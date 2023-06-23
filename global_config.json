@@ -12,8 +12,9 @@
     "dynamic_thresholding": "True",
     "data_path" : "data.nosync",
     "model_save_dir": "models_dir",
-    "model_name" : "model_name",
+    "model_name" : "model_diffusion_better_df.ckpt",
     "convert_from_trainer" : "True",
-    "image_save_dir": "path/to/image/dir/",
-    "testing_images_dir" : "path/to/testing/images/dir/"
+    "image_save_dir": "images_better_df",
+    "testing_images_dir" : "path/to/testing/images/dir/",
+    "deterministic_generate_images" : "True"
 }
