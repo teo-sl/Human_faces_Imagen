@@ -177,3 +177,30 @@ def train(trainer, text_embeddings, config, save_every = 5_000, sample_every = 2
             if os.path.exists(filename):
                 os.remove(filename)
             trainer.save(filename)
+
+
+def make_generate(config):
+    text_embeddings = get_text_embeddings("faces_embeddings.pkl", labels)
+
+    unet = Unet(
+      dim = config["dim"], # the "Z" layer dimension, i.e. the number of filters the outputs to the first layer
+      cond_dim = config["cond_dim"],
+      text_embed_dim = 768,
+      dim_mults = config["dim_mults"], # the channel dimensions inside the model (multiplied by dim)
+      num_resnet_blocks = config["num_resnet_blocks"],
+      layer_attns = (False,) + (True,) * (len(config["dim_mults"]) - 1),
+      layer_cross_attns = (False,) + (True,) * (len(config["dim_mults"]) - 1)
+    )
+
+    imagen = Imagen(
+        unets = unet,
+        image_sizes = config["image_sizes"],
+        timesteps = config["timesteps"],
+        cond_drop_prob = config["cond_drop_prob"],
+        dynamic_thresholding = config["dynamic_thresholding"],
+    ).cuda()
+
+    trainer = ImagenTrainer(imagen, lr=config["lr"])
+
+
+    return trainer, text_embeddings

@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="117c4a33-181b-435d-b8df-a87391408b62" name="Changes" comment="Added readme.md">
+    <list default="true" id="117c4a33-181b-435d-b8df-a87391408b62" name="Changes" comment="Added deterministic generation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/global_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/global_config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_util.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user_generate_images.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_generate_images.py" afterDir="false" />
     </list>
@@ -91,7 +90,7 @@
       <workItem from="1686488225349" duration="409000" />
       <workItem from="1687094108350" duration="3333000" />
       <workItem from="1687164099280" duration="3678000" />
-      <workItem from="1687513515812" duration="198000" />
+      <workItem from="1687513515812" duration="870000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1685897443272</created>
@@ -198,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687167192345</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added deterministic generation">
+      <created>1687513729359</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1687513729359</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +246,7 @@
     <MESSAGE value="updated config" />
     <MESSAGE value="little updates" />
     <MESSAGE value="Added readme.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added readme.md" />
+    <MESSAGE value="Added deterministic generation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added deterministic generation" />
   </component>
 </project>

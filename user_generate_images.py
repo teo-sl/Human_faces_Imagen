@@ -1,10 +1,12 @@
 from main_util import read_config
 import torch
 import os
-from main_util import make
+from main_util import make_generate
 import numpy as np
 import random
 
+from transformers import logging
+logging.set_verbosity_error()
 
 
 def generate_images(imagen, text_embeddings, labels, config, names, iter, dir):
@@ -41,7 +43,7 @@ if hyperparams["deterministic_generate_images"]:
     torch.backends.cudnn.benchmark = False
     torch.backends.cudnn.deterministic = True
 
-trainer,text_embeddings = make(hyperparams)
+trainer,text_embeddings = make_generate(hyperparams)
 names,labels_test = read_test_file('test.txt')
 
 if not os.path.exists(hyperparams["image_save_dir"]):
