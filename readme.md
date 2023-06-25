@@ -43,6 +43,7 @@ The last files rely on the configurations entered in the global_config.json file
 - convert_from_trainer: whether to load the model from a trainer checkpoint
 - image_save_dir: the path to save the generated images
 - testing_images_dir: the path where the test images are saved (usually the same as image_save_dir)
+- deterministic_generate_images: whether to use a deterministic seed in image generation
 
 - The dataset used is available in the data.nosync.zip file. The labels for testing the model are available in test.txt.
 

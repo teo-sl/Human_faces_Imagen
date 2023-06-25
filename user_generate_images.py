@@ -51,7 +51,7 @@ if not os.path.exists(hyperparams["image_save_dir"]):
   
 imagen = trainer.imagen
 if hyperparams["convert_from_trainer"]:
-    trainer.load_state_dict(torch.load(os.path.join(hyperparams["model_save_dir"],hyperparams["model_name"])))
+    trainer.load(os.path.join(hyperparams["model_save_dir"], hyperparams["model_name"]))
 else:
    imagen.load_state_dict(torch.load(os.path.join(hyperparams["model_save_dir"],hyperparams["model_name"])))
 
